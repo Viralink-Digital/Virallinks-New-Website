@@ -1,0 +1,521 @@
+/*** 
+=============================================
+    Footer area style
+=============================================
+***/
+.bottom-parallax {
+    position: relative;
+    height: 860px;
+    opacity: 0;
+    z-index: -999;
+}
+
+.bottom-parallax .footer-style1 {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 860px;
+}
+
+.parallax-visible .bottom-parallax {
+    opacity: 1;
+    z-index: 1;
+}
+
+
+
+/*** 
+=============================================
+    Footer style1 Css
+=============================================
+***/
+.footer-style1 {
+    position: relative;
+    display: block;
+    background: var(--thm-main-bg);
+    overflow: hidden;
+    z-index: 10;
+}
+
+.footer-style1__shape1 {
+    position: absolute;
+    top: 62px;
+    left: 72px;
+    opacity: 0.10;
+}
+
+.footer-style1__shape2 {
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    opacity: 0.10;
+}
+
+.footer-style1__shape3 {
+    position: absolute;
+    left: 540px;
+    bottom: 60px;
+    opacity: 0.10;
+}
+
+
+.footer-style1__shape4 {
+    position: absolute;
+    top: 70px;
+    right: 140px;
+}
+
+.footer-style1__shape5 {
+    position: absolute;
+    top: 335px;
+    right: 45px;
+    opacity: 0.10;
+}
+
+.footer-main {
+    position: relative;
+    display: block;
+    padding-top: 220px;
+    padding-bottom: 126px;
+}
+
+.footer-main--style2 {
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+
+.single-footer-widget {
+    position: relative;
+    display: block;
+}
+
+.single-footer-widget.margin-left-minus {
+    margin-left: -20px;
+}
+
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    margin-top: -1px;
+}
+
+.single-footer-widget .title h3 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+
+.our-company-info {
+    position: relative;
+    display: block;
+    padding-top: 23px;
+}
+
+.our-company-info .text {
+    position: relative;
+    display: block;
+}
+
+.our-company-info .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+
+.footer-logo-style1 {
+    position: relative;
+    display: block;
+    margin-top: 40px;
+}
+
+.footer-logo-style1 a {
+    position: relative;
+    display: inline-block;
+    background-color: #272727;
+    padding: 18px 20px 20px;
+    padding-right: 60px;
+}
+
+
+
+.footer-widget-links {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 22px;
+}
+
+.footer-widget-links ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.footer-widget-links ul li {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-links ul li+li {
+    margin-top: 20px;
+}
+
+.footer-widget-links ul li a {
+    position: relative;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: var(--thm-font);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.footer-widget-links ul li a:hover {
+    color: var(--thm-base);
+    padding-left: 3px;
+}
+
+.footer-widget-links ul li a span {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    margin-right: 10px;
+    top: 1px;
+}
+
+
+
+
+
+.footer-widget-contact-info {
+    position: relative;
+    display: block;
+    padding-top: 24px;
+}
+
+.footer-widget-contact-info ul {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-contact-info ul li {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-contact-info ul li+li {
+    margin-top: 14px;
+}
+
+.footer-widget-contact-info ul li a {
+    position: relative;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--thm-font-2);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.footer-widget-contact-info ul li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    right: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: -1;
+}
+
+.footer-widget-contact-info ul li a:hover {
+    color: var(--thm-base);
+}
+
+.footer-widget-contact-info .text {
+    position: relative;
+    display: block;
+    margin-top: 15px;
+}
+
+.footer-widget-contact-info .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    line-height: 30px;
+    font-family: var(--thm-font-2);
+}
+
+
+
+.play-store-box {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+}
+
+.play-store-box ul {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.play-store-box ul li {
+    position: relative;
+    display: block;
+}
+
+.play-store-box ul li+li {
+    margin-left: 10px;
+}
+
+.play-store-box ul li a {
+    position: relative;
+    display: inline-block;
+}
+
+.play-store-box ul li a img {
+    width: 100%;
+}
+
+
+
+
+.single-footer-widget__box-inner {
+    position: relative;
+    display: block;
+    padding-top: 26px;
+}
+
+.footer-widget-newsletter-box {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-newsletter-box p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.footer-widget-newsletter-box .form-group {
+    position: relative;
+    display: block;
+    margin: 0;
+    margin-top: 23px;
+}
+
+.footer-widget-newsletter-box .form-group input[type='email'] {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 60px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    background: #272727;
+    border: 0px solid rgba(255, 255, 255, 0.10);
+    padding-left: 30px;
+    padding-right: 70px;
+    border-radius: 0px;
+    font-family: var(--thm-font);
+}
+
+.footer-widget-newsletter-box .form-group button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    transition: all 300ms ease 100ms;
+    font-size: 18px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.footer-widget-newsletter-box .form-group button i {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+}
+
+.footer-widget-newsletter-box .form-group input[type="email"]::-webkit-input-placeholder {
+    color: #777777;
+}
+
+.footer-widget-newsletter-box .form-group input[type="email"]:-moz-placeholder {
+    color: #777777;
+}
+
+.footer-widget-newsletter-box .form-group input[type="email"]::-moz-placeholder {
+    color: #777777;
+}
+
+.footer-widget-newsletter-box .form-group input[type="email"]:-ms-input-placeholder {
+    color: #777777;
+}
+
+
+.footer-menu {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+
+.footer-menu ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu ul li {
+    position: relative;
+    display: block;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.single-footer-widget__box-inner .footer-menu ul li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 10px;
+    background-color: rgb(255, 255, 255, 0.10);
+}
+
+.single-footer-widget__box-inner .footer-menu ul li:first-child::before {
+    display: none;
+}
+
+.single-footer-widget__box-inner .footer-menu ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.single-footer-widget__box-inner .footer-menu ul li a {
+    position: relative;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--thm-font);
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-footer-widget__box-inner .footer-menu ul li a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+.footer-social-link {
+    position: relative;
+    display: block;
+    padding-top: 31px;
+}
+
+.footer-social-link ul {
+    position: relative;
+    display: block;
+}
+
+.footer-social-link ul li {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-social-link ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-social-link ul li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    color: rgb(255, 255, 255, 0.30);
+    font-size: 16px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.footer-social-link ul li:hover a {
+    color: #ffffff;
+    background-color: var(--thm-base);
+}
+
+
+
+.footer-bottom {
+    position: relative;
+    display: block;
+    border-top: 1px solid rgb(255, 255, 255, 0.10);
+}
+
+.footer-bottom .bottom-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 36px 0px 36px;
+}
+
+.copyright-text {
+    position: relative;
+    display: block;
+}
+
+.copyright-text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: var(--thm-font);
+}
+
+.copyright-text p a {
+    color: var(--thm-base);
+    transition: all 300ms ease 100ms;
+}
+
+.copyright-text p a:hover {
+    color: #ffffff;
+}
+
+
+
+/**  End Css  **/

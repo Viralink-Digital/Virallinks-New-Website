@@ -1,0 +1,119 @@
+/*** 
+=============================================
+    Partner Style1 Css
+=============================================
+***/
+.partner-style1 {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.partner-style1.pdtop120 {
+    padding-top: 120px;
+}
+
+.partner-style1 .sec-title {
+    padding-bottom: 0;
+    z-index: 1;
+}
+
+.partner-style1 .sec-title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    right: 0;
+    height: 1px;
+    background-color: var(--thm-black);
+}
+
+.partner-style1 .sec-title__shape.item-center {
+    width: 250px;
+    background-color: #ffffff;
+}
+
+
+.brand-content {
+    position: relative;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 95px;
+}
+
+.single-partner-logo-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.single-partner-logo-box:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: var(--thm-black);
+    opacity: 0.01;
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.single-partner-logo-box:hover:before {
+    transform: perspective(400px) scaleX(1.0);
+}
+
+.single-partner-logo-box a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.single-partner-logo-box a img {
+    position: relative;
+    display: inline-block !important;
+    opacity: 0.2;
+    width: auto !important;
+    transition: all 0.2s ease-in-out 0.1s;
+    mix-blend-mode: normal;
+    filter: grayscale(100%);
+}
+
+.single-partner-logo-box:hover a img {
+    opacity: 1.0;
+    filter: grayscale(0%);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+
+
+
+.partner-style1--instyle2 {
+    padding-top: 120px;
+    background-color: var(--thm-gray-bg);
+}
+
+.partner-style1__shape1 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    opacity: 0.10;
+}
+
+.partner-style1__shape2 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    opacity: 0.10;
+}
+
+.partner-style1--instyle2 .sec-title__shape.item-center {
+    background-color: var(--thm-gray-bg);
+}

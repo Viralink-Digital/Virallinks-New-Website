@@ -1,0 +1,152 @@
+/*** 
+=============================================
+    Breadcrumb area style
+=============================================
+***/
+.breadcrumb-style1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 60px;
+    z-index: 10;
+}
+
+.breadcrumb-style1-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.breadcrumb-style1-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(104.43deg, #222222 -1.04%, rgba(34, 34, 34, 0.5) 100%);
+    z-index: -1;
+}
+
+.breadcrumb-style1__shape1 {
+    position: absolute;
+    left: 50px;
+    bottom: 25px;
+    opacity: 0.05;
+}
+
+.breadcrumb-style1__shape2 {
+    position: absolute;
+    left: 35px;
+    bottom: 15px;
+    opacity: 0.05;
+}
+
+.breadcrumb-style1__shape3 {
+    position: absolute;
+    left: 235px;
+    bottom: 35px;
+    opacity: 0.05;
+}
+
+.breadcrumb-style1__shape4 {
+    position: absolute;
+    top: -1px;
+    right: 640px;
+    opacity: 0.30;
+}
+
+.breadcrumb-style1__shape5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    mix-blend-mode: multiply;
+}
+
+.breadcrumb-style1 .inner-content {
+    position: relative;
+    display: block;
+    padding: 208px 0 123px;
+}
+
+.breadcrumb-style1 .title {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.breadcrumb-style1 .title h2 {
+    color: #ffffff;
+    font-size: 96px;
+    line-height: 1.1em;
+    font-weight: 400;
+    font-family: var(--thm-font-2);
+    text-transform: capitalize;
+
+}
+
+.breadcrumb-menu {
+    position: relative;
+    display: block;
+    line-height: 0;
+    padding-top: 0px;
+    z-index: 1;
+}
+
+.breadcrumb-menu ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.breadcrumb-menu ul li {
+    position: relative;
+    float: left;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-right: 12px;
+    margin-right: 12px;
+    font-family: var(--thm-font);
+}
+
+.breadcrumb-menu ul li:before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    right: 0;
+    bottom: 7px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: rotate(20deg);
+}
+
+.breadcrumb-menu ul li:last-child:before {
+    display: none;
+}
+
+.breadcrumb-menu ul li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.breadcrumb-menu ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.breadcrumb-menu ul li:hover a,
+.breadcrumb-menu ul li.active {
+    color: var(--thm-base);
+}

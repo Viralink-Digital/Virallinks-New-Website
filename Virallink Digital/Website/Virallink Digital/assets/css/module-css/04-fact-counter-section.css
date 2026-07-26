@@ -1,0 +1,286 @@
+/*** 
+=============================================
+    Fact Counter style1 Css
+=============================================
+***/
+.fact-counter-style1 {
+    position: relative;
+    display: block;
+    margin-bottom: -100px;
+    z-index: 100;
+}
+
+.fact-counter-style1__inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 44px 110px 2px;
+    background: #272727;
+    z-index: 10;
+}
+
+.fact-counter-style1__left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: var(--thm-base);
+    clip-path: polygon(100% 70%, 0 0, 0 100%);
+    z-index: 1;
+}
+
+.fact-counter-style1__left-box {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 87px;
+    background-color: var(--thm-black);
+    clip-path: polygon(100% 100%, 0 0, 0 100%);
+    z-index: -1;
+}
+
+.fact-counter-style1__right {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    width: 60px;
+    background-color: var(--thm-base);
+    clip-path: polygon(100% 0, 0% 70%, 100% 100%);
+    z-index: 1;
+}
+
+.fact-counter-style1__right-box {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 87px;
+    background-color: var(--thm-black);
+    clip-path: polygon(100% 100%, 100% 0, 0% 100%);
+    z-index: -1;
+}
+
+
+
+.fact-counter-style1__shape1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.05;
+    z-index: -2;
+}
+
+.fact-counter-style1__shape2 {
+    position: absolute;
+    top: 0;
+    right: 85px;
+    bottom: 0;
+    opacity: 0.05;
+    z-index: -2;
+}
+
+.fact-counter-style1__shape3 {
+    position: absolute;
+    top: 30px;
+    left: 310px;
+    opacity: 0.05;
+}
+
+.fact-counter-style1__shape4 {
+    position: absolute;
+    right: 420px;
+    bottom: 25px;
+    opacity: 0.05;
+}
+
+.fact-counter-style1__shape5 {
+    position: absolute;
+    top: 25px;
+    right: 270px;
+}
+
+
+.fact-counter_box {
+    position: relative;
+    display: block;
+}
+
+.fact-counter_box ul {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.single-fact-counter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 33.33333333333333%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+.single-fact-counter .outer-box {
+    position: relative;
+    display: block;
+}
+
+.single-fact-counter .count-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 54px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: var(--thm-font-2);
+}
+
+.single-fact-counter .count-box span {
+    position: relative;
+    display: block;
+    line-height: 60px;
+}
+
+.single-fact-counter .count-box i {
+    position: relative;
+    display: inline-block;
+    top: 2px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.single-fact-counter .title {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+}
+
+.single-fact-counter .title h6 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.single-fact-counter .text {
+    position: relative;
+    display: block;
+}
+
+.single-fact-counter .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+
+/*** 
+=============================================
+   Fact Counter Style2 Css 
+=============================================
+***/
+.fact-counter-style2 {
+    position: relative;
+    display: block;
+    z-index: 10;
+}
+
+.fact-counter-style2 .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.fact-counter-style2__inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 44px 200px 0px;
+    background: var(--thm-main-bg);
+    z-index: 10;
+}
+
+.fact-counter-style2__left-box {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    bottom: -1px;
+    width: 87px;
+    background-color: #ffffff;
+    clip-path: polygon(100% 100%, 0 0, 0 100%);
+    z-index: -1;
+}
+
+.fact-counter-style2__right-box {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: -1px;
+    width: 87px;
+    background-color: #ffffff;
+    clip-path: polygon(100% 100%, 100% 0, 0% 100%);
+    z-index: -1;
+}
+
+.fact-counter-style2 .fact-counter-style1__shape1 {
+    left: 55px;
+}
+
+.fact-counter-style2 .fact-counter-style1__shape2 {
+    right: 130px;
+}
+
+.fact-counter-style2 .fact-counter-style1__shape3 {
+    top: 24px;
+    left: 605px;
+}
+
+.fact-counter-style2 .fact-counter-style1__shape4 {
+    right: 40%;
+}
+
+.fact-counter-style2 .fact-counter-style1__shape5 {
+    right: 485px;
+}
+
+.fact-counter-style2 .single-fact-counter {
+    justify-content: center;
+}
+
+
+
+/*** 
+=============================================
+    Fact Counter style3 Css
+=============================================
+***/
+.fact-counter-style3 {
+    position: relative;
+    display: block;
+    z-index: 100;
+}
+
+.fact-counter-style3 .fact-counter-style1__left-box {
+    background-color: #ffffff;
+    width: 85px;
+    bottom: -1px;
+}
+
+.fact-counter-style3 .fact-counter-style1__right-box {
+    background-color: #ffffff;
+    width: 85px;
+    bottom: -1px;
+    right: -1px;
+}

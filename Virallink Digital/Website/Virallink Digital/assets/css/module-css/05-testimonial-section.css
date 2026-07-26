@@ -1,0 +1,154 @@
+/*** 
+=============================================
+   Testimonial Style1 Css
+=============================================
+***/
+.testimonials-style1 {
+    position: relative;
+    display: block;
+    background: var(--thm-gray-bg);
+    padding: 120px 0px 120px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.single-testimonials-style1 {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    padding: 48px 50px 44px;
+    transition: all 0.5s ease;
+}
+
+.single-testimonials-style1:hover {
+    transform: translateY(5px);
+}
+
+.single-testimonials-style1 .shape {
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+
+.single-testimonials-style1 .shape img {
+    position: relative;
+    display: inline-block;
+    opacity: 1.0;
+    width: auto;
+    transition: all 0.2s ease-in-out 0.1s;
+    mix-blend-mode: normal;
+    filter: grayscale(100%);
+}
+
+
+.single-testimonials-style1:hover .shape img {
+    filter: grayscale(0%);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+
+.single-testimonials-style1 .logo {
+    position: relative;
+    display: block;
+}
+
+.single-testimonials-style1 .logo img {
+    width: auto;
+}
+
+.single-testimonials-style1 .text-box {
+    position: relative;
+    display: block;
+    margin-top: 42px;
+}
+
+
+
+.single-testimonials-style1 .customer-info {
+    position: relative;
+    display: inline-block;
+    margin-top: 57px;
+}
+
+.single-testimonials-style1 .customer-info .inner {
+    position: relative;
+    display: block;
+}
+
+.single-testimonials-style1 .customer-info .inner h3 {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.single-testimonials-style1 .customer-info .inner .review-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.single-testimonials-style1 .customer-info .inner .review-box ul li {
+    margin-right: 1px;
+}
+
+.single-testimonials-style1 .customer-info .inner .review-box ul li i {
+    font-size: 12px;
+}
+
+.single-testimonials-style1 .customer-info .inner .review-box h6 {
+    color: var(--thm-gray);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--thm-font);
+    padding-left: 9px;
+}
+
+.single-testimonials-style1 .customer-info .icon {
+    position: absolute;
+    top: -15px;
+    right: -50px;
+    line-height: 0;
+}
+
+.single-testimonials-style1 .customer-info .icon span {
+    color: var(--thm-black);
+    font-size: 45px;
+    line-height: 45px;
+}
+
+
+.testimonials-style1-carousel .owl-stage-outer {
+    padding-bottom: 50px;
+}
+
+
+
+/*** 
+=============================================
+   Testimonial Style1 In Style2 Css
+=============================================
+***/
+.testimonials-style1--instyle2 {
+    background: #ffffff;
+}
+
+.testimonials-style1--instyle2.pdt0 {
+    padding-top: 0;
+}
+
+.testimonials-style1--instyle2 .single-testimonials-style1 {
+    background-color: var(--thm-gray-bg);
+}
+
+
+
+
+.testimonial-page1 {
+    position: relative;
+}
+
+.testimonial-page1 .single-testimonials-style1 {
+    margin-bottom: 24px;
+}
